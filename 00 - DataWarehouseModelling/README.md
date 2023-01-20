@@ -20,7 +20,7 @@ In the Type 1 reaction, we simply replace the old attribute value with the new o
 
 :heavy_minus_sign: Loss of history and no tracking of change
 
-**=> Best option when the change is a correction**
+**CONCLUSION : Best option when the change is a correction**
 
 ### Type 2 - Add a dimension line
 
@@ -34,9 +34,9 @@ When an attribute is changed, we enter a new dimension line indicating the new v
 
 :heavy_minus_sign: Can make the table bigger
 
-:warning: Use the natural key (Us_number) to safely connect the two recordings (and do not count the same product twice)
+**ATTENTION :** Use the natural key (Us_number) to safely connect the two recordings (and do not count the same product twice)
 
-**=> Main technique for correctly tracking slowly changing dimensional attributes**
+**CONCLUSION : Main technique for correctly tracking slowly changing dimensional attributes**
 
 ### Type 3 - Add a dimension column
 
@@ -50,7 +50,7 @@ With type 3, we add a column in order to know simultaneously the current value a
 
 :heavy_minus_sign: Limited history management. Only the previous state is saved
 
-**=> Perfect solution when there is a strong need to allow two world views simultaneously**
+**CONCLUSION : Perfect solution when there is a strong need to allow two world views simultaneously**
 
 ## Data audit
 
