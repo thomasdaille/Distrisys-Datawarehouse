@@ -16,6 +16,5 @@
 
 # FactFacture
 
-<center>
 ![FactFacture schema](https://drive.google.com/file/d/1A1SlOixXvvMaL3ahjgpkGdq7Wcal1Pl3/view?usp=share_link)
-</center>
+
