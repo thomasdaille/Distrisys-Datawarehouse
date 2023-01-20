@@ -1,0 +1,3 @@
+# Dimension creation script
+
+Here you can find all the scipts for creating dimensions in T-SQL.
