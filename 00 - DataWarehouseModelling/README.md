@@ -16,5 +16,6 @@
 
 # FactFacture
 
+<center>
 ![FactFacture schema](https://github.com/thomasdaille/Image-Library/blob/master/FactFacture.PNG)
-
+</center>
