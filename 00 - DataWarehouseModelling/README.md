@@ -30,6 +30,8 @@ When an attribute is changed, we enter a new dimension line indicating the new v
   <img src="https://github.com/thomasdaille/Image-Library/blob/master/SCD2.PNG" alt="SCD type 2">
 </p>
 
+You can also work with "effective date" and "expiry date" fields.
+
 :heavy_plus_sign: Accurate history tracing
 
 :heavy_minus_sign: Can make the table bigger
