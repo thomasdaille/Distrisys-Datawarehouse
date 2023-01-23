@@ -2,7 +2,9 @@
 
 ## How to store data ?
 
-https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802
+For designe a datawarehouse, we usully use the dimensional modeling.
+
+For more informations, please read [The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling](https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802) by Ralph Kimball & Margy Ross.
 
 The star schema is a mature modelling approach widely adopted by relational data warehouses. Modellers must classify their model tables as either dimension or fact tables.
 
@@ -83,3 +85,5 @@ With type 3, we add a column in order to know simultaneously the current value a
 :heavy_minus_sign: Limited history management. Only the previous state is saved
 
 **CONCLUSION : Perfect solution when there is a strong need to allow two world views simultaneously**
+
+
