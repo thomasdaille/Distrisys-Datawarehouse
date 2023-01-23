@@ -10,4 +10,4 @@ Beware of dependencies, please run *DimGeaographie* before *DimSite* and *DimCli
 - **DimSite** - Includes all the company's site (shop)
 - **DimClient** - Cover all the company's clients
 - **DimProduit** - Contains all the company's products
-- **DimTemps** - nables the use of a temporal analysis axis
+- **DimTemps** - Enables the use of a temporal analysis axis
