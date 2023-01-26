@@ -1,0 +1,15 @@
+﻿ProduitCode;ProduitNom;SousFamilleCode;SousFamilleNom;FamilleCode;FamilleNom
+LL1100;LAGON LL1100;LL;Lave-Linge;GM;Gros Menager
+LL1200;LAGON LL1200;LL;Lave-Linge;GM;Gros Menager
+LV1620;LAGON LV 1620;LV;Lave-Vaisselle;GM;Gros Menager
+SL1000;LAGON SL 1000;SL;Seche-Linge;GM;Gros Menager
+F120;Pierre Michel F120;F;Four;GM;Gros Menager
+R080;Pierre Michel R 080;R;Refrégirateur;GM;Gros Menager
+GP700;Cuccina GP 700;GP;Grille-Pain;PM;Petit Menager
+C470;Cuccina C 470;C2;Cafetière;C;Cafetière
+RC3000p;Cuccina RC 3000++;RC;Robot Cuisine;PM;Petit Menager
+C260;Cuccina C 260;C2;Cafetière;C;Cafetière
+C270;Cuccina C 260;C2;Cafetière;C;Cafetière
+;;;;;
+;;;;;
+;;;;;
