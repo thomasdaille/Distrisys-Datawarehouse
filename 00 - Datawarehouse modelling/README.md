@@ -90,9 +90,9 @@ With type 3, we add a column in order to know simultaneously the current value a
 
 Here you can find all the scipts for creating facts in T-SQL.
  
-# Our fact tables
+## Our fact tables
 
-## FactFacture
+### FactFacture
 
 The fact table *FactFacture* allows you to analyse the company's invoices by containing one line per day (invoice date), per invoice site, per product and per customer. For each line, we find the amount of the invoice, the discount, the margin, the cost and the quantity.
 
