@@ -2,6 +2,8 @@
 
 ## Environment
 
+This project is carried out on SQL Server and the flows are developed on SSIS.
+
 <p align="center">
   <img src="https://github.com/thomasdaille/Image-Library/blob/master/Environement.PNG" alt="Environement">
 </p>
