@@ -8,12 +8,6 @@ For more informations, please read [The Data Warehouse Toolkit: The Definitive G
 
 The star schema is a mature modelling approach widely adopted by relational data warehouses. Modellers must classify their model tables as either dimension or fact tables.
 
-<p align="center">
-  <img src="https://github.com/thomasdaille/Image-Library/blob/master/StarSchema.PNG" alt="Star schema">
-</p>
-
-###
-
 ### Fact tables
 
 Fact tables store observations or events and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table is generally divided into 3 parts :
@@ -92,7 +86,11 @@ Here you can find all the scipts for creating facts in T-SQL.
  
 ## Our fact tables
 
-### FactFacture
+### Commercial activities
+
+In order to monitor commercial activities, Distrisys has organised an invoice analysis system. The objective is to analyse sales, margins and costs.
+
+#### FactFacture
 
 The table *FactFacture* is trasanction fact table wich allows you to analyse the company's invoices by containing one line per day (invoice date), per invoice site, per product and per customer. For each line, we find the amount of the invoice, the discount, the margin, the cost and the quantity.
 
@@ -100,12 +98,32 @@ The table *FactFacture* is trasanction fact table wich allows you to analyse the
   <img src="https://github.com/thomasdaille/Image-Library/blob/master/FactFacture.PNG" alt="FactFacture schema">
 </p>
 
-### FactFactureEntete
+#### FactFactureEntete
 
 It allows us to analyse one invoice per fact and allows us to analyse the number of invoices, the average price charged, the average number of items etc.
 
 <p align="center">
   <img src="https://github.com/thomasdaille/Image-Library/blob/master/FactFactureEntete.PNG" alt="FactFactureEntete schema">
+</p>
+
+## Support activities 
+
+The aim here is to analyse the organisation's support functions such as human resources. We are particularly interested in employee monitoring.
+
+### FactPersonnelMouvement
+
+This fact table records the movement of employees in and out of the organisation.
+
+<p align="center">
+  <img src="https://github.com/thomasdaille/Image-Library/blob/master/FactPersonnelMouvement.PNG" alt="FactPersonnelMouvement schema">
+</p>
+
+### FactPersonnelPhoto
+
+FactPersonnelPhoto periodically records a snapshot of active personnel. It is used to measure the organisation's employee stock.
+
+<p align="center">
+  <img src="https://github.com/thomasdaille/Image-Library/blob/master/FactPersonnelPhoto.PNG" alt="FactPersonnelPhoto schema">
 </p>
 
 # Dimension creation script
