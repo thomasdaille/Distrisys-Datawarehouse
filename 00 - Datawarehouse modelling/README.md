@@ -139,3 +139,5 @@ Beware of dependencies, please run *DimGeaographie* before *DimSite* and *DimCli
 - **DimClient** - Cover all the company's clients
 - **DimProduit** - Contains all the company's products
 - **DimTemps** - Enables the use of a temporal analysis axis
+- **DimPersonnelAttributs** - It's an aggregate of attributes that characterise the personnel but does not go to the level of detail of the employee's name (anonymity + reduction of volume)
+- **DimPersonnelMouvement** - Characterises a movement of personnel within the company
