@@ -1,0 +1,13 @@
+﻿PersonnelAttributs_PK;Poste;DepartementRH;ClasseAge;Nationnalite;AnciennetePoste;AncienneteSite;AncienneteSociete;TypeContrat
+0;Inconnu;Inconnu;Inconnu;Inconnu;01/01/1900;01/01/1900;01/01/1900;INC
+4;Directeur;Central;45-64 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+6;Directeur soin;Central;35-44 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+7;Cadre santé;Central;25-34 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+10;Cadre santé;Central;35-44 ans;Italie;01/01/2015;01/01/2015;01/01/2015;CDI
+11;Infirmier(e);Central;25-34 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+13;Infirmier(e);Central;18-24 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+14;Medecin;Central;35-44 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+15;Medecin;Central;45-64 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+16;Pharmacien;Central;25-34 ans;Suède;01/01/2015;01/01/2015;01/01/2015;CDI
+17;Pharmacien;Central;35-44 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
+18;Aide soignant(e);Central;18-24 ans;France;01/01/2015;01/01/2015;01/01/2015;CDI
